@@ -1,0 +1,91 @@
+*,*::after,*::before{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    max-width: 1110px;
+margin: 0 auto;
+border: 2px solid red;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.container{
+    max-width: 1110px;
+margin: 0 auto;
+border: 2px solid red;
+}
+header{
+    background-image: url(../img/Rectangle.jpg);
+min-height: 100vh;
+}
+.flex_container{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul{
+display: flex;
+min-width: 200px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+nav ul li a:hover{
+    opacity: 0.5;
+}
+.requestplus_button{
+    background-color: #FFFFFF;
+border: 0px;
+min-width: 175px;
+min-height: 49px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.header_info h1 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 66px;
+
+color: #000000;
+}
+.header_info p{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+}
+.rr{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+    
+color: #FFFFFF;
+}
+.uu{
+    display: flex;
+}
